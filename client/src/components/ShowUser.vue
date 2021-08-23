@@ -4,6 +4,7 @@
     <p>id: {{ userId }}</p>
     <p>nameDog - dog breed {{ user.name }} - {{ user.lastname }}</p>
     <p>Email Dog: {{ user.email }}</p>
+    <p>Birthday: {{ user.birthday }}</p>
     <p>how to raise: {{ user.password }}</p>
   </div>
 </template>

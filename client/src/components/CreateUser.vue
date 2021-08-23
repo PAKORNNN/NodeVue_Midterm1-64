@@ -5,6 +5,7 @@
         <p>nameDog: <input type="text" v-model="user.name"></p>
         <p>dog breed: <input type="text" v-model="user.lastname"></p>
         <p>Email Dog: <input type="text" v-model="user.email"></p>
+        <p>Birthday: <input type="text" v-model="user.birthday"></p>
         <p>how to raise: <input type="text" v-model="user.password"></p>
         <p><button type="submit">create user</button></p>
     </form>
@@ -13,6 +14,7 @@
         <p>nameDog: {{user.name}}</p>
         <p>dog breed: {{user.lastname}}</p>
         <p>Email Dog: {{user.email}}</p>
+        <p>Birthday: {{user.birthday}}</p>
         <p>how to raise: {{user.password}}</p>
     </div>
 </div>
@@ -27,6 +29,7 @@ export default {
                 name: '',
                 lastname: '',
                 email: '',
+                birthday: '',
                 password: '',
                 status: 'active'
             }

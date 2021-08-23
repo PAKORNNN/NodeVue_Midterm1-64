@@ -12,6 +12,7 @@
         <p>id: {{ user.id }}</p>
         <p>nameDog: {{ user.name }} - {{ user.lastname }}</p>
         <p>Email Dog: {{ user.email }}</p>
+        <p>Birthday: {{ user.birthday }}</p>
         <p>how to raise: {{ user.password }}</p>
         <p>
           <button v-on:click="navigateTo('/user/' + user.id)">
