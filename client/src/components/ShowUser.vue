@@ -2,9 +2,9 @@
   <div>
     <h1>Show User</h1>
     <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>nameDog - dog breed {{ user.name }} - {{ user.lastname }}</p>
+    <p>Email Dog: {{ user.email }}</p>
+    <p>how to raise: {{ user.password }}</p>
   </div>
 </template>
 <script>
